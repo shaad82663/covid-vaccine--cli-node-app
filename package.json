@@ -1,0 +1,23 @@
+{
+  "name": "cowin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "start" : "nodemon ./bin/index.js",
+    "startonce" : "node ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0",
+    "node-notifier": "^10.0.1",
+    "tty-table": "^4.1.5"
+  },
+  "bin" : {
+    "cowin" : "./bin/index.js"
+  }
+}
